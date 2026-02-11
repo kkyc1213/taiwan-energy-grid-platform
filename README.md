@@ -29,8 +29,11 @@ The system runs on Google Cloud Run (containerized with Docker) and stores data 
 ## Sample Outputs
 
 - Detailed generation dashboard (Power mode)
+  ![Power Mode](screenshots/detail_power.png)
 - Aggregated energy mix analysis (Energy mode)
+  ![Energy Mode](screenshots/aggregated_energy.png)
 - Energy storage monitoring
+  ![ESS](screenshots/energy_storage.png)
 
 Live demo: [sustAInalyze](https://tpexplorer-52894193882.asia-east1.run.app/energyDetail/powerMode-d)
 
