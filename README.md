@@ -20,7 +20,7 @@ The platform:
 
 ## Architecture
 
-(Architecture diagram will be inserted here)
+![Architecture](Architecture Diagram github.png)
 
 The system runs on Google Cloud Run (containerized with Docker) and stores data in Cloud SQL (PostgreSQL). Data quality and reliability are treated as cross-cutting concerns across all pipeline stages.
 
