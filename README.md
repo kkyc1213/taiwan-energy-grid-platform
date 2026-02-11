@@ -32,7 +32,7 @@ The system runs on Google Cloud Run (containerized with Docker) and stores data 
 - Aggregated energy mix analysis (Energy mode)
 - Energy storage monitoring
 
-Live demo: [(insert link here)](https://tpexplorer-52894193882.asia-east1.run.app/energyDetail/powerMode-d)
+Live demo: [sustAInalyze](https://tpexplorer-52894193882.asia-east1.run.app/energyDetail/powerMode-d)
 
 ---
 
@@ -49,10 +49,10 @@ Live demo: [(insert link here)](https://tpexplorer-52894193882.asia-east1.run.ap
 
 ## Data Quality & Reliability
 
-- >99.5% ingestion coverage at 10-minute intervals
+- 99.5% up ingestion coverage at 10-minute intervals
 - Retry with backoff and jitter
 - Failure logging and monitoring
-- Explicit missing interval detection (backfill-ready design)
+- Explicit missing interval detection; currently validated daily with manual review, designed for future automated backfill
 
 ---
 
