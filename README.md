@@ -55,7 +55,7 @@ Live demo: [sustAInalyze](https://tpexplorer-52894193882.asia-east1.run.app/ener
 - 99.5% up ingestion coverage at 10-minute intervals
 - Retry with backoff and jitter
 - Failure logging and monitoring
-- Explicit missing interval detection; currently validated daily with manual review, designed for future automated backfill
+- Explicit missing interval detection designed for future automated backfill
 
 ---
 
